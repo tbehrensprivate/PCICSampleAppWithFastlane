@@ -1,4 +1,4 @@
-app_identifier "com.porsche.PCICSampleAppWithFastlane" # The bundle identifier of your app
+app_identifier "dev.porsche.PCICSampleAppWithFastlane" # The bundle identifier of your app
 apple_id "tristan.behrens@mhp.com" # Your Apple email address
 
 team_id "6WNX4U9DBF"  # Developer Portal Team ID

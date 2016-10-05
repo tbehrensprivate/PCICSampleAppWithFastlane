@@ -22,6 +22,11 @@ platform :ios do
     
   end
 
+  desc "Test lane"
+  lane :testLane do
+    gym(scheme: "PCICSampleAppWithFastlane", sdk: "iphoneos10.0", use_legacy_build_api: true)
+  end
+
   desc "Runs all the tests"
   lane :test do
     scan
